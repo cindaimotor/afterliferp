@@ -15,5 +15,5 @@ AddEventHandler('onClientGameTypeStart', function()
     end)
 
     exports.spawnmanager:setAutoSpawn(true)
-    exports.spawnmanager:forceRespawn()
+    exports.spawnmanager:forceRespawn(false)
 end)
