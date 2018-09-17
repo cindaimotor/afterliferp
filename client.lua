@@ -6,7 +6,7 @@ AddEventHandler('onClientGameTypeStart', function()
             x = spawnPos.x,
             y = spawnPos.y,
             z = spawnPos.z,
-            model = 'a_m_m_skater_01'
+            model = 'mp_m_freemode_01'
         }, function()
             TriggerEvent('chat:addMessage', {
                 args = { 'Welcome to Afterlife RP' }
